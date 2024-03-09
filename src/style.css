@@ -1,0 +1,452 @@
+:root{
+    --bg-color:#f1f1f2;
+    --color-one:#2372c2;
+    --color-two:#237194;
+    --accent:#2372c2;  
+    --second-bg-color:#faf2f3;  
+}
+html{
+    font-size: 80.5%;
+    overflow-x: hidden;
+}
+
+/* dashboard  */
+
+.dashboard .container-fluid .col-md-3{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(46, 8, 197), rgba(42, 29, 232, 0.835));
+}
+.col-md-3 .col-md-12{
+    border-bottom: 1px solid var(--color-two);
+    padding-top: 10px;
+}
+.dashboard .col-md-3 .profile{
+    height: 60px;
+    width: 60px;
+    background-color: var(--bg-color);
+    border-radius: 50%;
+}
+.dashboard .col-md-3 .profile img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.dashboard .col-md-3  .ul1{
+    list-style-type: none;
+} 
+.dashboard .ul1 li{
+    display: inline-block;
+}
+.dashboard .ul1 li span{
+    position: relative;
+    left: 9px;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--bg-color);
+}
+.dashboard .ul2 li{
+    color: var(--bg-color);
+    margin-top: 9px;
+    font-weight: bold;
+}
+.dashboard .ul3{
+    color: var(--bg-color);
+    list-style-type: none;
+}
+.dashboard .ul3 a{
+    text-decoration: none;
+    color: var(--bg-color);
+    margin-left: 10px;
+}
+.dashboard .ul3 li{
+    font-weight: bold;
+    margin-top: 32px;
+}
+.dashboard .ul3 li img{
+    height: 20px;
+    width: 20px;
+}
+
+
+/* second column */
+.dashboard .col-md-9{
+    background-color: var(--second-bg-color);
+}
+.dashboard .col-md-9 .student{
+    width: 200px;
+    height: 200px;
+}
+.dashboard .col-md-9 .col-md-6{
+    border-bottom: 2px solid black !important;
+}
+.dashboard .col-md-9 .border{
+    border-bottom: 2px solid black;
+}
+.dashboard .col-md-6 .ul4{
+    list-style-type: none;
+    position: relative;
+    left: 250px;
+}
+.dashboard .col-md-9 .col-md-6 .ul4 li{
+    display: inline-block;
+    position: relative;
+    top:5px;
+}
+.dashboard .col-md-9 .col-md-6 .ul4  .sname{
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+}
+.dashboard .col-md-9 li div{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--accent);
+}
+.dashboard .col-md-9 .col-md-6 .ul4 li i{
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 8px;
+    top: 5px;
+}
+.dashboard .col-md-9 .col-md-12 .table1 th{
+    border: 1px solid black;
+    padding: 20px;
+    transition: 0.5s;
+}
+.dashboard .col-md-9 .col-md-12 .table1 th:hover{
+    background-color: var(--accent);
+}
+.dashboard .col-md-9 .col-md-12 .table1 td{
+    color: red;
+    position: relative;
+    top: 20px;
+}
+.dashboard .col-md-9 .col-md-12 .table1 .tr{
+    position: relative;
+    top: 20px;
+}
+.dashboard .col-md-9 .col-md-12 .table2 th{
+    padding: 10px;
+    background-color: var(--accent);
+}
+.dashboard .col-md-9 .col-md-12 .table2 .tr-faint{
+    background-color: #f3cd95;
+}
+.dashboard .col-md-9 .col-md-12 .table2 tr td ul{
+    list-style-type: none;
+}
+.dashboard .col-md-9 .col-md-12 button{
+    height: 40px;
+    width: 100px;
+    background-color: var(--accent);
+    border: none;
+    border-radius: 2px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.dashboard .col-md-9 .col-md-12 button:hover{
+    background-color: var(--color-one);
+    color: var(--bg-color);
+}
+
+/* Time Table */
+.dashboard .col-md-9 .col-md-12 .table3 ul{
+    list-style-type: none;
+}
+.dashboard .col-md-9 .col-md-12 .table3 .div1{
+   width: 100%;
+   height: 20px;
+   background-color: rgb(255, 175, 175);
+   border-radius: 2px;
+   text-align: center;
+   position: relative;
+   right: 20px;
+   color: var(--bg-color);
+
+}
+.dashboard .col-md-9 .col-md-12 .table3 .div2{
+   width: 100%;
+   height: 20px;
+   background-color: rgb(144, 235, 168);
+   border-radius: 2px;
+   text-align: center;
+   position: relative;
+   right: 20px;
+   top: 5px;
+   color: var(--bg-color);
+
+}
+.dashboard .col-md-9 .col-md-12 .table3 .div3{
+   width: 100%;
+   height: 20px;
+   background-color: rgb(176, 158, 241);
+   border-radius: 2px;
+   text-align: center;
+   position: relative;
+   right: 20px;
+   top: 10px;
+   color: var(--bg-color);
+
+}
+.dashboard .col-md-9 .col-md-12 .table3 .div4{
+   width: 100%;
+   height: 20px;
+   background-color: rgb(144, 235, 168);
+   border-radius: 2px;
+   text-align: center;
+   position: relative;
+   right: 20px;
+   top: 10px;
+   color: var(--bg-color);
+
+}
+.dashboard .col-md-9 .col-md-12 .table3 .div4{
+   width: 100%;
+   height: 20px;
+   background-color: rgb(235, 219, 119);
+   border-radius: 2px;
+   text-align: center;
+   position: relative;
+   right: 20px;
+   top: 10px;
+   color: var(--bg-color);
+
+}
+.dashboard .col-md-9 .col-md-12 .table3 .div5{
+   width: 100%;
+   height: 20px;
+   background-color: rgb(95, 38, 229);
+   border-radius: 2px;
+   text-align: center;
+   position: relative;
+   right: 20px;
+   top: 10px;
+   color: var(--bg-color);
+}
+    .dashboard .col-md-9 .col-md-12 .table3 .div6{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(176, 158, 241);
+    border-radius: 2px;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    top: 10px;
+    color: var(--bg-color);
+    }
+    .dashboard .col-md-9 .col-md-12 .table3 .div7{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(125, 196, 210);
+    border-radius: 2px;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    top: 10px;
+    color: var(--bg-color);
+    }
+    .dashboard .col-md-9 .col-md-12 .table3 .div8{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(125, 196, 210);
+    border-radius: 2px;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    top: 10px;
+    color: var(--bg-color);
+    }
+    .dashboard .col-md-9 .col-md-12 .table3 .div9{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(255, 175, 175);
+    border-radius: 2px;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    top: 10px;
+    color: var(--bg-color);
+    }
+
+    .dashboard .col-md-9 .Calender{
+        background-color: var(--bg-color);
+        border-radius: 10px;
+    }
+    .dashboard .col-md-9 .Calender .days{
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+    /* Attendace */
+
+    .dashboard .attendace .col-md-12 ul{
+        list-style-type: none;
+    }
+    .dashboard .attendace .col-md-12 .profile2{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(183, 180, 180);
+            border-radius: 50%;
+            position: relative;
+            left: 400px;
+    }
+    .dashboard .attendace .col-md-12 .present{
+        border: 1px solid black;
+        margin-left: 20px;
+    }
+    .dashboard .attendace .col-md-12 .absent{
+        border: 1px solid black;
+        margin-left: 100px;
+    }
+    .dashboard  .attendace2{
+        border-radius: 10px;
+    }
+    .dashboard  .attendace2 .days{
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    .dashboard .attendace2 .absenty{
+        background-color: #a1d3ea;
+    }
+    .dashboard .attendace2 .absenty li{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #237194;
+        color: white;
+    }
+    .dashboard .attendace2 .absenty span{
+        position: relative;
+        left: 7px;
+        top: 2px;
+    }
+    
+    .dashboard .col-md-9 p{
+        font-size: 16px;
+        margin-left: 15px;
+        color: grey;
+    }
+
+    .dashboard .col-md-9 .newssearch{
+        width: 100%;
+        border: none;
+        height: 30px;
+        border-top-right-radius : 10px;
+        border-bottom-right-radius : 10px;
+    }
+    
+    .dashboard .news_section p{
+        position: relative;
+        top: 40px;
+    }
+    .dashboard .news_section p:hover{
+        position: relative;
+        bottom: 40px !important;
+    }
+    .dashboard .col-md-2 i{
+        position: relative;
+        right: 55px;
+        top: 5px;
+    }
+
+
+    /* student batches */
+    .dashboard .col-md-9 .batches .ulbatches{
+        list-style-type: none;
+    }
+    .dashboard .col-md-9 .batches li{
+        display: inline-block;
+    }
+    .dashboard .col-md-9 .batches li a{
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+    }
+    .dashboard .col-md-9 .batches li a:hover{
+       color: #0e559c;
+    }
+.dashboard .col-md-9 .studentmain{
+    border-radius: 10px;
+}
+    .dashboard .col-md-9 .col-md-12 .addstudent .studul1{
+        list-style-type: none;
+    }
+    .dashboard .col-md-9 .col-md-12 .addstudent li{
+        display: inline-block;
+    }
+    .dashboard .col-md-9 .col-md-12 .addstudent .studul1 li .add button{
+        height: 30px;
+        width: 200px;
+        border: none;
+        background-color: #0e559c !important;
+        color: white;
+        font-weight: bold;
+    }
+    .dashboard .col-md-9 .col-md-12 .addstudent .studul1 li .messaging button{
+        height: 30px;
+        width: 200px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+
+    .dashboard .col-md-9  .resources .resourcesbtn button{
+        height: 30px;
+        width: 250px !important;
+        border: none;
+        background-color: #0e559c !important;
+        color: white;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .dashboard .col-md-9  .expenses .expensesbtn button{
+        height: 30px;
+        width: 250px !important;
+        border: none;
+        background-color: #0e559c !important;
+        color: white;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    .dashboard .col-md-9 .mainbox{
+        height: 400px !important;
+        border-radius: 10px;
+    }
+
+    /* Home */
+    .dashboard .col-md-9 .homemain .homeul1{
+        list-style-type: none;
+    }
+    .dashboard .col-md-9  .steps ul{
+        list-style-type: none;
+    }
+    .dashboard .col-md-9 .homemain .homeul1 li{
+        display: inline-block;
+    }
+    .dashboard .col-md-9 .steps .account img{
+        height: 50px;
+        width: 50px;
+    }
+    .dashboard .col-md-9 .steps .addstudent img{
+        height: 50px;
+        width: 50px;
+    }
+    .dashboard .col-md-9 .steps .eventshedule img{
+        height: 50px;
+        width: 50px;
+    }
+    .dashboard .col-md-9 .steps .gotit img{
+        height: 50px;
+        width: 50px;
+    }
+    .dashboard .col-md-9 .steps ul li{
+       font-size: 5px;
+    }
+    .dashboard .col-md-9 .steps .col-1 hr{
+       margin-left: 20px;
+    }
+    

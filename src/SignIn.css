@@ -1,0 +1,22 @@
+html{
+    overflow-x: hidden;
+}
+.signin{
+    background-color: antiquewhite;
+    color: black;
+}
+.signin .container_fluid .col-md-6{
+    border-radius: 10px;
+}
+.signin .container_fluid .col-md-6 .ul1{
+    list-style-type: none !important;
+}
+.signin .container_fluid .col-md-6 .ul1 li{
+   display: inline-block;
+}
+.signin .container_fluid .ul2{
+   list-style-type: none;
+}
+.signin .container_fluid .ul3{
+   list-style-type: none;
+}

@@ -1,0 +1,58 @@
+html{
+    overflow-x: hidden;
+}
+.login{
+    background-color: antiquewhite;
+    color: black;
+    /* background-image: url('img/bgmain.png');
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%; */
+}
+
+
+.login .col-md-12 h3{
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.login .col-md-12 .span1{
+    font-size: 15px;
+}
+.login .col-md-4{
+    border-radius: 10px;
+}
+.login .col-md-4 h6{
+    font-weight: bold;
+    font-size: 20;
+}
+.login .col-md-4 .span2{
+    font-size: 12px;
+}
+.login .col-md-4 .form-control{
+    background-color: rgb(213, 230, 253);
+    font-weight: bold;
+    font-size: 10px;
+    border: 1px solid rgb(96, 139, 218);
+}
+.login .col-md-4 .form-control{
+    background-color: rgb(213, 230, 253);
+    font-weight: bold;
+    font-size: 10px;
+}
+.login .col-md-4 .btn{
+    background-color: rgb(24, 45, 74);
+    width: 300px;
+    color: white;
+    font-weight: bold;
+}
+.login .container .span3 a{
+   color: rgb(96, 139, 218);
+   text-decoration: none;
+}
+.login .container .span3 .checkbox{
+    height: 12px;
+    width: 12px;
+    position: relative;
+    top: 19px;
+    right: 1px;
+}
